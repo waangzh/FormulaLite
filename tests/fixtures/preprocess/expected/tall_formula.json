@@ -1,0 +1,57 @@
+{
+  "expected_image_uint8": {
+    "path": "expected/tall_formula.gray.bin",
+    "sha256": "1a41efe06e2ddc6cc602569ed595f5cfc1ff3387acdb0bc43c7d9e0684d88918",
+    "shape": [
+      384,
+      384
+    ]
+  },
+  "expected_tensor": {
+    "dtype": "float32-le",
+    "layout": "CHW",
+    "path": "expected/tall_formula.f32.bin",
+    "sha256": "cb42eee068a1c8aaa509641611993f7f2b33f5ae16bf055ccaa31b02d53d22ad",
+    "shape": [
+      3,
+      384,
+      384
+    ]
+  },
+  "fixture_sha256": "5edc872971cec3a84602ed0ab7364187cbe098b71c014245bb1c7d964946598b",
+  "fixture_version": "1.0.0",
+  "metadata": {
+    "bbox": {
+      "x0": 7,
+      "x1": 23,
+      "y0": 5,
+      "y1": 155
+    },
+    "crop_size": [
+      16,
+      150
+    ],
+    "empty": false,
+    "input_size": [
+      30,
+      160
+    ],
+    "inverted": false,
+    "padding": {
+      "bottom": 0,
+      "left": 171,
+      "right": 172,
+      "top": 0
+    },
+    "resize_size": [
+      41,
+      384
+    ]
+  },
+  "name": "tall_formula",
+  "preprocess_spec_version": "1.0.0",
+  "source": {
+    "path": "images/tall_formula.png",
+    "sha256": "823a52e4644f336b841f0078db6f8d8181557e45e6b3c5d56360262ace203fb3"
+  }
+}

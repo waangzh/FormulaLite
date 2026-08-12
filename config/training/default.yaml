@@ -1,0 +1,31 @@
+name: default
+init_mode: scratch
+pretrained_path: null
+resume_from_checkpoint: null
+
+freeze_encoder: false
+
+optimizer:
+  lr: 1.0e-5
+  weight_decay: 0.05
+  betas: [0.9, 0.999]
+  eps: 1.0e-8
+
+scheduler:
+  warmup_steps: 5000
+  total_steps: 100000
+  min_lr: 1.0e-8
+
+generation:
+  max_new_tokens: 256
+
+validation:
+  compute_generation_metrics: true
+
+checkpoint:
+  dirpath: null
+  save_top_k: 2
+
+logging:
+  save_dir: outputs
+  name: formulalite

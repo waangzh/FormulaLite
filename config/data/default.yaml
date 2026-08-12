@@ -1,0 +1,15 @@
+name: default
+train_manifest: null
+val_manifest: null
+test_manifest: null
+batch_size: 16
+num_workers: 4
+max_sequence_length: 1027
+unknown_policy: error
+overlength_policy: error
+shuffle: true
+streaming: false
+shuffle_buffer_size: 1
+seed: ${seed}
+pin_memory: false
+image_size: 384

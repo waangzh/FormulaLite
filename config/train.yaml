@@ -1,0 +1,9 @@
+defaults:
+  - data: default
+  - model: baseline
+  - training: default
+  - trainer: default
+  - _self_
+
+project_name: formulalite
+seed: 42

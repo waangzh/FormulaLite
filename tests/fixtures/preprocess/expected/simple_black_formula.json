@@ -1,0 +1,57 @@
+{
+  "expected_image_uint8": {
+    "path": "expected/simple_black_formula.gray.bin",
+    "sha256": "f34ad56d48f3131a1386ad9034c55cabfbbc4f161f0db269afe1095a61ca113a",
+    "shape": [
+      384,
+      384
+    ]
+  },
+  "expected_tensor": {
+    "dtype": "float32-le",
+    "layout": "CHW",
+    "path": "expected/simple_black_formula.f32.bin",
+    "sha256": "4c625e72e0cef0dd6c18f6cbb2057e18bdbedc1e1a908700e8c74bd9c688af76",
+    "shape": [
+      3,
+      384,
+      384
+    ]
+  },
+  "fixture_sha256": "c15e86b9cd694829fca51b28d924b2cd0f963893d9b2de67a77bca8dfc493b14",
+  "fixture_version": "1.0.0",
+  "metadata": {
+    "bbox": {
+      "x0": 8,
+      "x1": 47,
+      "y0": 9,
+      "y1": 22
+    },
+    "crop_size": [
+      39,
+      13
+    ],
+    "empty": false,
+    "input_size": [
+      64,
+      32
+    ],
+    "inverted": false,
+    "padding": {
+      "bottom": 128,
+      "left": 0,
+      "right": 0,
+      "top": 128
+    },
+    "resize_size": [
+      384,
+      128
+    ]
+  },
+  "name": "simple_black_formula",
+  "preprocess_spec_version": "1.0.0",
+  "source": {
+    "path": "images/simple_black_formula.png",
+    "sha256": "4d0cb6906c65af6550b76c2a03b02324570604d2f8058c48fc3e5473a4652028"
+  }
+}

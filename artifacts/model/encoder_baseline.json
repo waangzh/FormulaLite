@@ -1,0 +1,14 @@
+{
+  "architecture": "FormulaLite HGNetV2-B4-style encoder baseline",
+  "config_sha256": "266089c8bbf0cb03085c4ee27c0cb11918a76e509cfacea1676c0b466ec1d1ad",
+  "git_commit": "6e0bb1bf036649149c876010cb1251039677a5df",
+  "git_commit_semantics": "Phase 3 base commit from which the Phase 4 artifact was built",
+  "hidden_size": 2048,
+  "input_size": [
+    3,
+    384,
+    384
+  ],
+  "output_tokens": 144,
+  "parameter_count": 13553376
+}

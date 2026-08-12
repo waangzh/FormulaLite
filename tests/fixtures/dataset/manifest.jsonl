@@ -1,0 +1,12 @@
+{"id":"short-x","image":"../preprocess/images/simple_black_formula.png","raw_latex":"x","subset":"SPE","source":"fixture"}
+{"id":"linear","image":"../preprocess/images/wide_formula.png","raw_latex":"x+y=2","subset":"SPE","source":"fixture"}
+{"id":"fraction","image":"../preprocess/images/tall_formula.png","raw_latex":"\\frac{a+b}{c-d}","subset":"CPE","source":"fixture"}
+{"id":"sqrt","image":"../preprocess/images/one_pixel_foreground.png","raw_latex":"\\sqrt{x^2+y^2}","subset":"CPE","source":"fixture"}
+{"id":"scripts","image":"../preprocess/images/near_threshold.png","raw_latex":"x_i^2+y_j^3","subset":"SCE","source":"fixture"}
+{"id":"greek","image":"../preprocess/images/white_on_black.png","raw_latex":"\\alpha+\\beta=\\Gamma","subset":"SCE","source":"fixture"}
+{"id":"array","image":"../preprocess/images/transparent_background.png","raw_latex":"\\begin{array}{cc}a&b\\\\c&d\\end{array}","subset":"HWE","source":"fixture"}
+{"id":"sum","image":"../preprocess/images/empty_image.png","raw_latex":"\\sum_{i=0}^{n}i","subset":"HWE","source":"fixture"}
+{"id":"delimiters","image":"../preprocess/images/wide_formula.png","raw_latex":"\\left(\\frac{x}{y}\\right)","subset":"SPE","source":"fixture"}
+{"id":"equality","image":"../preprocess/images/simple_black_formula.png","raw_latex":"a=b","subset":"CPE","source":"fixture"}
+{"id":"unknown-matrix","image":"../preprocess/images/tall_formula.png","raw_latex":"\\begin{matrix}a&b\\\\c&d\\end{matrix}","subset":"SCE","source":"fixture"}
+{"id":"overlength","image":"../preprocess/images/near_threshold.png","raw_latex":"x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x","subset":"HWE","source":"fixture"}

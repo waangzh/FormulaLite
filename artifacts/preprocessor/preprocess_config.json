@@ -1,0 +1,92 @@
+{
+  "alpha": {
+    "background_rgb": [
+      255,
+      255,
+      255
+    ],
+    "divisor": 255,
+    "fully_transparent_behavior": "background",
+    "mode": "straight_alpha_composite",
+    "rounding": "round_half_up"
+  },
+  "bbox": {
+    "axes": {
+      "x": "[x0,x1)",
+      "y": "[y0,y1)"
+    },
+    "coordinate_convention": "half_open",
+    "empty_image_behavior": "full_input_bbox",
+    "foreground_rule": "pixel < foreground_threshold"
+  },
+  "channels": 3,
+  "dynamic_range": {
+    "constant_image_behavior": "unchanged",
+    "formula": "round_half_up((value-min)*255/(max-min))",
+    "mode": "min_max_uint8"
+  },
+  "foreground_threshold": 200,
+  "grayscale": {
+    "coefficients": [
+      299,
+      587,
+      114
+    ],
+    "divisor": 1000,
+    "method": "bt601_integer",
+    "rounding": "round_half_up"
+  },
+  "image_size": {
+    "height": 384,
+    "width": 384
+  },
+  "mean": [
+    0.7931,
+    0.7931,
+    0.7931
+  ],
+  "output_dtype": "float32",
+  "output_layout": "CHW",
+  "padding": {
+    "mode": "constant",
+    "odd_remainder": "right_and_bottom",
+    "placement": "center",
+    "value": 0
+  },
+  "pipeline": [
+    "decode",
+    "alpha_composite",
+    "grayscale",
+    "polarity_normalization",
+    "dynamic_range_normalization",
+    "foreground_bbox",
+    "crop",
+    "aspect_ratio_resize",
+    "center_padding",
+    "mean_std_normalization",
+    "replicate_channels",
+    "float32_chw"
+  ],
+  "polarity": {
+    "border_pixels": "unique_perimeter",
+    "inversion": "255_minus_value",
+    "invert_when_mean_below": 127.5,
+    "mode": "border_mean"
+  },
+  "resize": {
+    "boundary": "clamp",
+    "coordinate_transform": "half_pixel",
+    "interpolation": "bilinear",
+    "mode": "fit",
+    "preserve_aspect_ratio": true,
+    "sample_rounding": "round_half_up_to_uint8",
+    "size_rounding": "round_half_up"
+  },
+  "spec_version": "1.0.0",
+  "std": [
+    0.1738,
+    0.1738,
+    0.1738
+  ],
+  "uint8_max": 255
+}

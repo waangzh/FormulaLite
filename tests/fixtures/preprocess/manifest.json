@@ -1,0 +1,56 @@
+{
+  "fixture_set_sha256": "c605a36a40392fd2af2c348c7b3d52b092888f9a13f1504e0ef8f6d2461290e4",
+  "fixture_version": "1.0.0",
+  "fixtures": [
+    {
+      "fixture_sha256": "c15e86b9cd694829fca51b28d924b2cd0f963893d9b2de67a77bca8dfc493b14",
+      "manifest": "expected/simple_black_formula.json",
+      "manifest_sha256": "c15e62d67ddf2e127411553ae55fb1c9ebb5bd573c9c3d7d7d78744d134ebb92",
+      "name": "simple_black_formula"
+    },
+    {
+      "fixture_sha256": "793e531d30403b39223a73a48e3659122fa0ad5fe71cecee2afa5c334a33d4b3",
+      "manifest": "expected/wide_formula.json",
+      "manifest_sha256": "876309b3604d68e7b127e532d44e3db085f7934473da373988b17f7054f6a45f",
+      "name": "wide_formula"
+    },
+    {
+      "fixture_sha256": "5edc872971cec3a84602ed0ab7364187cbe098b71c014245bb1c7d964946598b",
+      "manifest": "expected/tall_formula.json",
+      "manifest_sha256": "0763cfb1aa793b52e95cacdc42ce6cddd1b874049f41c3b0247e94b92500c9fe",
+      "name": "tall_formula"
+    },
+    {
+      "fixture_sha256": "8f10693e6c21591ecc648238a2fff04314c1e5edd14c017be11e6f07533c9e1e",
+      "manifest": "expected/transparent_background.json",
+      "manifest_sha256": "5f33db76400319708740b8674a27dbc9f6813799a363e10e18c65af62ed9e87f",
+      "name": "transparent_background"
+    },
+    {
+      "fixture_sha256": "0bc5473d493b47ccd4844953d65836dd58e05e4267c34c5d558668e39e03e6e0",
+      "manifest": "expected/white_on_black.json",
+      "manifest_sha256": "ddbab827487b5fad2a40a2dc695c36d71da070c107d0cd6dec000a6dfa1e1d8c",
+      "name": "white_on_black"
+    },
+    {
+      "fixture_sha256": "a44c13a894c00b20f13da6a5796c97262501cfd95319ed66c5b2d5c6493d44a1",
+      "manifest": "expected/near_threshold.json",
+      "manifest_sha256": "fe0eea81340346aad606212073aaed554f3c86f6e0ff743d48133fad1dd1a0f8",
+      "name": "near_threshold"
+    },
+    {
+      "fixture_sha256": "1050187fc582f611596996fd4934702224d7c0a2abd834b4738ff09b45b720ea",
+      "manifest": "expected/one_pixel_foreground.json",
+      "manifest_sha256": "821fdd89f2b702e1ec52baeb50f05dc477c81ef0b36c7fa75f25d63882b1ec71",
+      "name": "one_pixel_foreground"
+    },
+    {
+      "fixture_sha256": "8d591bcc62d00295c8cf6de4fe3acefd4b9d81bf8608cca437737f21afe1e9f2",
+      "manifest": "expected/empty_image.json",
+      "manifest_sha256": "54f083589424e73e18563b41813a6b669fd6230c54507116715009754341d74c",
+      "name": "empty_image"
+    }
+  ],
+  "preprocess_config_sha256": "6f08cdb21d2fdeda4a3ede2de69fdcba0984b86d24973f9e90cb9b76ae9048ff",
+  "preprocess_spec_version": "1.0.0"
+}

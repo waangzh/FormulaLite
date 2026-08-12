@@ -1,0 +1,52 @@
+{
+  "accepted_samples": 11,
+  "accepted_subset_distribution": {
+    "CPE": 3,
+    "HWE": 2,
+    "SCE": 3,
+    "SPE": 3
+  },
+  "dataset_source": "tests/fixtures/dataset/manifest.jsonl",
+  "dropped_overlength_samples": 1,
+  "dropped_unknown_samples": 0,
+  "image_dimensions": {
+    "count": 11,
+    "max_height": 160,
+    "max_width": 160,
+    "mean_height": 50.09090909090909,
+    "mean_width": 64.45454545454545,
+    "min_height": 7,
+    "min_width": 9
+  },
+  "normalized_samples": 12,
+  "normalizer_version": "1.0.0",
+  "overlength_samples": 1,
+  "policies": {
+    "max_sequence_length": 32,
+    "overlength": "drop",
+    "unknown": "keep"
+  },
+  "schema_version": "1.0.0",
+  "sequence_length": {
+    "count": 12,
+    "max": 41,
+    "mean": 14.166666666666666,
+    "overlength_sample_count": 1,
+    "p50": 13,
+    "p90": 27,
+    "p95": 41,
+    "p99": 41
+  },
+  "subset_distribution": {
+    "CPE": 3,
+    "HWE": 3,
+    "SCE": 3,
+    "SPE": 3
+  },
+  "tokenizer_sha256": "6e47ee0d983cd8c43d2a3d4e3656106e985cc56d20729baae668d1e8dca9f1f0",
+  "total_samples": 12,
+  "unknown_sample_rate": 0.08333333333333333,
+  "unknown_samples": 1,
+  "unknown_token_count": 2,
+  "unknown_token_rate": 0.011764705882352941
+}

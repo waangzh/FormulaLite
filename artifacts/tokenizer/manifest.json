@@ -1,0 +1,25 @@
+{
+  "artifact_sha256": "e239d2c38b6bd2f9c86b9c8893dee8927dfbac65faace69f2373a7356d26f549",
+  "artifact_version": "1.0.0",
+  "normalizer_version": "1.0.0",
+  "special_tokens": {
+    "bos_token": {
+      "id": 0,
+      "token": "<bos>"
+    },
+    "eos_token": {
+      "id": 2,
+      "token": "<eos>"
+    },
+    "pad_token": {
+      "id": 1,
+      "token": "<pad>"
+    },
+    "unk_token": {
+      "id": 3,
+      "token": "<unk>"
+    }
+  },
+  "vocab_sha256": "6e47ee0d983cd8c43d2a3d4e3656106e985cc56d20729baae668d1e8dca9f1f0",
+  "vocab_size": 687
+}

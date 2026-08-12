@@ -1,0 +1,15 @@
+name: tiny
+train_manifest: tests/fixtures/dataset/manifest.jsonl
+val_manifest: tests/fixtures/dataset/manifest.jsonl
+test_manifest: tests/fixtures/dataset/manifest.jsonl
+batch_size: 2
+num_workers: 0
+max_sequence_length: 32
+unknown_policy: drop
+overlength_policy: drop
+shuffle: true
+streaming: false
+shuffle_buffer_size: 4
+seed: ${seed}
+pin_memory: false
+image_size: 64

@@ -1,0 +1,57 @@
+{
+  "expected_image_uint8": {
+    "path": "expected/empty_image.gray.bin",
+    "sha256": "5d43ef4c92530741d2b4fd10fe5bdde293012d99f94163e290f2d4ed42806b29",
+    "shape": [
+      384,
+      384
+    ]
+  },
+  "expected_tensor": {
+    "dtype": "float32-le",
+    "layout": "CHW",
+    "path": "expected/empty_image.f32.bin",
+    "sha256": "ac621f05060c1c3ccd971c9f98a5ca2c5b19612990133d4621fc6387577a8a67",
+    "shape": [
+      3,
+      384,
+      384
+    ]
+  },
+  "fixture_sha256": "8d591bcc62d00295c8cf6de4fe3acefd4b9d81bf8608cca437737f21afe1e9f2",
+  "fixture_version": "1.0.0",
+  "metadata": {
+    "bbox": {
+      "x0": 0,
+      "x1": 32,
+      "y0": 0,
+      "y1": 20
+    },
+    "crop_size": [
+      32,
+      20
+    ],
+    "empty": true,
+    "input_size": [
+      32,
+      20
+    ],
+    "inverted": false,
+    "padding": {
+      "bottom": 72,
+      "left": 0,
+      "right": 0,
+      "top": 72
+    },
+    "resize_size": [
+      384,
+      240
+    ]
+  },
+  "name": "empty_image",
+  "preprocess_spec_version": "1.0.0",
+  "source": {
+    "path": "images/empty_image.png",
+    "sha256": "d3e6a0180b9a7dc39f4c850eda8fa285956d171860ee56385407e33403e50e5f"
+  }
+}

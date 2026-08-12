@@ -1,0 +1,65 @@
+name: baseline
+input_size: 384
+image_size: 384
+input_channels: 3
+stem_channels: [3, 32, 48]
+stage_config:
+  stage1:
+    in_channels: 48
+    mid_channels: 48
+    out_channels: 128
+    num_blocks: 1
+    num_layers: 6
+    kernel_size: 3
+    downsample: false
+    use_light_conv: false
+  stage2:
+    in_channels: 128
+    mid_channels: 96
+    out_channels: 512
+    num_blocks: 1
+    num_layers: 6
+    kernel_size: 3
+    downsample: true
+    use_light_conv: false
+  stage3:
+    in_channels: 512
+    mid_channels: 192
+    out_channels: 1024
+    num_blocks: 3
+    num_layers: 6
+    kernel_size: 5
+    downsample: true
+    use_light_conv: true
+  stage4:
+    in_channels: 1024
+    mid_channels: 384
+    out_channels: 2048
+    num_blocks: 1
+    num_layers: 6
+    kernel_size: 5
+    downsample: true
+    use_light_conv: true
+hidden_size: 2048
+encoder_hidden_size: 2048
+activation: relu
+batch_norm_eps: 1.0e-5
+initialization: pytorch_default
+
+decoder_hidden_size: 384
+decoder_layers: 2
+decoder_attention_heads: 16
+decoder_ffn_dim: 1536
+max_position_embeddings: 1027
+vocab_size: 687
+bos_token_id: 0
+pad_token_id: 1
+eos_token_id: 2
+unk_token_id: 3
+decoder_start_token_id: 0
+decoder_dropout: 0.1
+decoder_attention_dropout: 0.0
+decoder_activation_dropout: 0.0
+decoder_layer_norm_eps: 1.0e-5
+decoder_scale_embedding: true
+tie_word_embeddings: false

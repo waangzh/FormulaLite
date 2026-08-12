@@ -1,0 +1,57 @@
+{
+  "expected_image_uint8": {
+    "path": "expected/transparent_background.gray.bin",
+    "sha256": "edd5fd0e483f0cf7ab43272bb76dc96075921def4a0b14baea8af2f93af0eb8d",
+    "shape": [
+      384,
+      384
+    ]
+  },
+  "expected_tensor": {
+    "dtype": "float32-le",
+    "layout": "CHW",
+    "path": "expected/transparent_background.f32.bin",
+    "sha256": "2477e5ee50cbda4385aeda073cdc6675567d7c504800f233125c3908c8f53e59",
+    "shape": [
+      3,
+      384,
+      384
+    ]
+  },
+  "fixture_sha256": "8f10693e6c21591ecc648238a2fff04314c1e5edd14c017be11e6f07533c9e1e",
+  "fixture_version": "1.0.0",
+  "metadata": {
+    "bbox": {
+      "x0": 12,
+      "x1": 68,
+      "y0": 10,
+      "y1": 28
+    },
+    "crop_size": [
+      56,
+      18
+    ],
+    "empty": false,
+    "input_size": [
+      80,
+      40
+    ],
+    "inverted": false,
+    "padding": {
+      "bottom": 131,
+      "left": 0,
+      "right": 0,
+      "top": 130
+    },
+    "resize_size": [
+      384,
+      123
+    ]
+  },
+  "name": "transparent_background",
+  "preprocess_spec_version": "1.0.0",
+  "source": {
+    "path": "images/transparent_background.png",
+    "sha256": "ebedb5e792080e56c6a28be507907537537dc1dc625f91a95708cf7990e57d38"
+  }
+}
